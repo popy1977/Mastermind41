@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-12T16:37:06Z" name="Suite1" finished-at="2022-06-12T16:37:41Z" duration-ms="34190">
+    <groups>
+    </groups>
+    <test started-at="2022-06-12T16:37:06Z" name="test1" finished-at="2022-06-12T16:37:21Z" duration-ms="14832">
+      <class name="com.practicecode.Crossbrowsertesting">
+        <test-method signature="getbrowser(java.lang.String)[pri:0, instance:com.practicecode.Crossbrowsertesting@1acaf3d]" started-at="2022-06-12T16:37:06Z" name="getbrowser" finished-at="2022-06-12T16:37:21Z" duration-ms="14746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getbrowser -->
+      </class> <!-- com.practicecode.Crossbrowsertesting -->
+    </test> <!-- test1 -->
+    <test started-at="2022-06-12T16:37:21Z" name="test2" finished-at="2022-06-12T16:37:41Z" duration-ms="19213">
+      <class name="com.practicecode.Crossbrowsertesting">
+        <test-method signature="getbrowser(java.lang.String)[pri:0, instance:com.practicecode.Crossbrowsertesting@57576994]" started-at="2022-06-12T16:37:21Z" name="getbrowser" finished-at="2022-06-12T16:37:41Z" duration-ms="19201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getbrowser -->
+      </class> <!-- com.practicecode.Crossbrowsertesting -->
+    </test> <!-- test2 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
